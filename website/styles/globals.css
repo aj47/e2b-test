@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body.redBackground {
+  background-color: red;
+}
+
+body.whiteBackground {
+  background-color: white;
+}
+
+button#toggleButton {
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
